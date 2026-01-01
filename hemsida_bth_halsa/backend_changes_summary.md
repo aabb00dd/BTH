@@ -4,7 +4,7 @@ This document outlines the full set of backend changes implemented to support dy
 
 ---
 
-## ✅ Core Functional Changes
+## Core Functional Changes
 
 ### 1. Generalized Placeholder Resolution
 - Supports dynamic placeholders of the form:
@@ -67,7 +67,7 @@ This document outlines the full set of backend changes implemented to support dy
 
 ---
 
-## ✅ Route & Helper Refactor
+## Route & Helper Refactor
 
 ### `/random` Route
 - Accepts `course_code` and `count`
@@ -92,7 +92,7 @@ This document outlines the full set of backend changes implemented to support dy
 
 ---
 
-## ✅ Implemented Checklist (from handwritten plan)
+## Implemented Checklist (from handwritten plan)
 
 - [x] 4D – Create question list
 - [x] 4D.1 – Send index 0 if frontend can’t handle a list

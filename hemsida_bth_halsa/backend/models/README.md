@@ -1,17 +1,17 @@
-# 📦 Database Utilities for Läkemedels Hemsida
+# Database Utilities for Läkemedels Hemsida
 
 This folder contains the core database models and utility functions for the [databases](./../db).
 
 ---
 
-# 🗃️ Databases
+# Databases
 | **Model** | **Database File**| **Info** |
 | ----- | ---- | ----- | 
 |[`questionModel.js`](./questionModel.js) | [`question_data.db`](./../db/question_data.db)| [Question Database](#-question-database) |
 |[`feedbackModel.js`](./feedbackModel.js) | [`question_data.db`](./../db/question_data.db)| [Feedback Database](#-feedback-database) |
 |[`userModel.js`](./userModel.js) | [`missing`](#-databases)| 🚧[WIP](#-databases) |
 
-# 📁 Question Database
+# Question Database
 
 ### [`questionModel.js`](./questionModel.js) -> [`question_data.db`](./../db/question_data.db)
 ---
@@ -25,7 +25,7 @@ updateRecord(table, id, updates)
 deleteRecord(table, column, value)
 ```
 ---
-## 📐 Database Schema
+## Database Schema
 
 
 | Column            | Type    | Notes                                                      |
@@ -63,7 +63,7 @@ deleteRecord(table, column, value)
 
 ---
 
-## ⚙️ Special Logic
+## Special Logic
 
 * *updateNumQuestions()* keeps course.num_questions synced with actual data.
 * *handleInsertError()* provides readable responses for foreign key and unique constraint violations.

@@ -2,9 +2,9 @@ from pathlib import Path
 
 # Markdown content for GitHub Wiki
 markdown_content = """
-# 📘 Project Documentation
+# Project Documentation
 
-## 📁 `/backend/db`
+## `/backend/db`
 
 > Folder for the database and updating/changing the SQLite DB
 
@@ -18,7 +18,7 @@ markdown_content = """
 
 ---
 
-## 📁 `/backend/helpers`
+## `/backend/helpers`
 
 > Hjälpfunktioner för routes  
 > Naming convention: `%%name%%Helpers.js` → `../routes/%%name%%Routes.js`
@@ -32,7 +32,7 @@ markdown_content = """
 
 ---
 
-## 📁 `/backend/models`
+## `/backend/models`
 
 > Models for handling database interaction
 
@@ -43,7 +43,7 @@ markdown_content = """
 
 ---
 
-## 📁 `/backend/routes`
+## `/backend/routes`
 
 > Frontend-backend connection.  
 > Naming convention: `%%name%%Routes.js` (where `name = table_name` in `question_data.db`)

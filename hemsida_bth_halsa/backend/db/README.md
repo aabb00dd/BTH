@@ -1,55 +1,55 @@
-# 📦 Database
+# Database
 
-This folder contains the database files and setup/update utilities for **Läkemedels Hemsida**.
-
----
-
-## 📁 Files Overview
-
-* 📄 [`initdatabase.js`](initdatabase.js) – *Returns connection to question\_data.db as db*
-* ⚙️ [`dbCommands.js`](dbCommands.js) – *Runs the insert for the question\_data.db from the dict*
-* 📥 [`insertDatabase.js`](insertDatabase.js)
+Thisfolder contains the database files and setup/update utilities for **Läkemedels Hemsida**.
 
 ---
 
-### 📄 [`initdatabase.js`](./initdatabase.js)
+## Files Overview
+
+* [`initdatabase.js`](initdatabase.js) – *Returns connection to question\_data.db as db*
+* [`dbCommands.js`](dbCommands.js) – *Runs the insert for the question\_data.db from the dict*
+* [`insertDatabase.js`](insertDatabase.js)
+
+---
+
+### [`initdatabase.js`](./initdatabase.js)
 
 Responsible for initializing the SQLite3 database and creating tables based on provided schema definitions.
 
-#### 📤 Exports
+#### Exports
 
-* 🗃️ `db` – Database object connected to `question_data.db`
+* `db` – Database object connected to `question_data.db`
 
 ```js
 initializeTable(tableName, columns)
 ```
 
-#### 🧾 Parameters
+#### Parameters
 
 * `tableName` *(string)*: The name of the table to create.
 * `columns` *(Array<{ name: string, type: string }>)*: List of column definitions.
 
   * `type`: The SQLite-compatible type declaration (e.g., `INTEGER PRIMARY KEY`, `TEXT NOT NULL`, etc.).
 
-#### ❗ Error Handling
+#### Error Handling
 
 * If table creation fails (e.g. due to bad SQL syntax or DB lock), the function logs the error to the console using `console.error`.
 * It does not throw or return structured errors — failures must be monitored via log output.
 
-#### 🖨️ Example Console Output
+#### Example Console Output
 
 ```bash
-✅ Initialized table: course
-❌ Failed to initialize table: Syntax error near "question_data"
+Initialized table: course
+Failed to initialize table: Syntax error near "question_data"
 ```
 
 ---
 
-### 📄 [`dbCommands.js`](./dbCommands.js)
+### [`dbCommands.js`](./dbCommands.js)
 
 A command-line script that does a complete initialization of question_data.db using `initializeTable`, refreshing inconsistencies between the database and the dictionary.
 
-#### 🧱 What It Does
+#### What It Does
 - Initializes the database connection
 - Calls insert functions from `insertDatabase.js`:
   - `insertUnits()`
@@ -70,7 +70,7 @@ npm run db
 
 ---
 
-### 📄 [`insertDatabase.js`](./insertDatabase.js)
+### [`insertDatabase.js`](./insertDatabase.js)
 
 This file populates the SQLite database `question_data.db` with default values using structured data from `database_dict.js`. It supports inserts and updates for all core entities (units, question types, courses, medicines, and questions).
 

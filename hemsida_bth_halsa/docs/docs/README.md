@@ -1,3 +1,3 @@
-# 📁 Backend Folder Structure
+# Backend Folder Structure
 
 [object Object]

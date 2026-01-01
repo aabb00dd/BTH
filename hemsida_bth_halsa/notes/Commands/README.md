@@ -1,0 +1,20 @@
+## Zip Project
+
+zip -r project.zip . \
+  -x ".git/*" \
+     "**/node_modules/*" \
+     ".pnp" \
+     ".pnp.js" \
+     "coverage/*" \
+     "build/*" \
+     "frontend/node_modules/*" \
+     "backend/node_modules/*" \
+     ".DS_Store" \
+     ".env.local" \
+     ".env.development.local" \
+     ".env.test.local" \
+     ".env.production.local" \
+     "npm-debug.log*" \
+     "yarn-debug.log*" \
+     "yarn-error.log*" \
+     "tree.txt"

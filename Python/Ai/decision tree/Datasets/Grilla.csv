@@ -1,0 +1,15 @@
+Dag,Väder,Temperatur,Fuktighet,Vind,Grilla
+Dag01,Sol,Varmt,Hög,Svag,Ja
+Dag02,Sol,Varmt,Hög,Stark,Ja
+Dag03,Mulet,Varmt,Hög,Svag,Ja
+Dag04,Regn,Varmt,Hög,Svag,Ja
+Dag05,Regn,Kallt,Normal,Svag,Nej
+Dag06,Regn,Kallt,Normal,Stark,Nej
+Dag07,Mulet,Kallt,Normal,Svag,Ja
+Dag08,Sol,Milt,Hög,Svag,Ja
+Dag09,Sol,Kallt,Normal,Svag,Ja
+Dag10,Regn,Milt,Normal,Svag,Nej
+Dag11,Sol,Milt,Normal,Stark,Ja
+Dag12,Mulet,Milt,Hög,Stark,Nej
+Dag13,Mulet,Varmt,Normal,Svag,Ja
+Dag14,Regn,Milt,Hög,Stark,Nej

@@ -50,4 +50,3 @@ This repository is actively maintained and will continue to grow as new courses 
 ## 📬 Contact
 
 If you have questions about any project or would like to discuss the work, feel free to reach out via GitHub or LinkedIn.
-If you want, I can:

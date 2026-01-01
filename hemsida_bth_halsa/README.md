@@ -1,59 +1,73 @@
-# 🧠 **Läkemedelsberäkningar** – Project Overview
+# Medical Dosage Calculations – Project Overview
 
-## 📌 tl;dr
-En webbapplikation för sjuksköterskestudenter vid BTH för att öva på olika läkemedelsberäkningar – med stöd för dynamiska frågor, automatiska svarskontroller och statistikhantering.
+## tl;dr
+This is a **school project** developed as part of coursework at **Blekinge Institute of Technology (BTH)**.  
+It is a web application designed for **nursing students** to practice different types of medical dosage calculations, with support for dynamic questions, automatic answer validation, and basic statistics handling.
 
 ---
 
-## 📁 Folder Structure Overview
+## Project Background
 
-- **📦 [`backend`](./backend/README.md)**  
-  Node.js server handling API endpoints, database operations, and dynamic question generation.
+This project was created for educational purposes within a university course.  
+The goal is to support learning and training in medical dosage calculations by providing an interactive, practice-oriented tool.
 
-- **📦 [`frontend`](./frontend/README.md)**  
-  React-based user interface for displaying questions, submitting answers, and providing feedback.
+The application is **not intended for clinical use** and should only be used in an academic or learning context.
 
-- **🚧 [`docs`](./docs/README.md)**  
-  Automated documentation (WIP).
+---
 
-- **📦 [`unit_tests/backend`](./unit_tests/backend)**  
-  Unit and integration tests for backend logic, including edge cases and validation.
+## Folder Structure Overview
 
-- **📦 [`instructions_new_code`](./instructions_new_code)**  
+- **[`backend`](./backend/README.md)**  
+  Node.js server responsible for API endpoints, database operations, and dynamic question generation.
+
+- **[`frontend`](./frontend/README.md)**  
+  React-based user interface for presenting questions, submitting answers, and giving feedback.
+
+- **[`docs`](./docs/README.md)**  
+  Automatically generated documentation (work in progress).
+
+- **[`unit_tests/backend`](./unit_tests/backend)**  
+  Unit and integration tests for backend logic, including validation and edge cases.
+
+- **[`instructions_new_code`](./instructions_new_code)**  
   Technical documentation and setup instructions for new backend contributions, including FASS integration.
 
-- **📦 [`notes`](./notes)**  
-  Design sketches, planning materials, and internal developer notes.
+- **[`notes`](./notes)**  
+  Design sketches, planning documents, and internal developer notes.
 
-- **📦 [`resuser`](./resuser/README.md)**  
-  External resources and files.
-
----
-
-## 📌 Known Issues / Limitations
-
-Highlight current known rough edges:
-
-
-## 🧭 Git Workflow
-
-- `live`: The currently deployed version
-- `deployment`: This should be code that is tested ready and approved to be deployed when possible
-- `main`: Intended to reflect a clean, deployable version (Before deployment but only completed tested and aproved changed)
-- `name`: Local dev base for developer *name* to work with
-
-Always branch off from `main` unless you want a certain version.
-
-Pull requests should be made into the `main` branch for new features that are up for review.
-
-For detailed instructions on using Git and GitHub in this project, see the [Git Commands Guide](./notes/github/README.md).
+- **[`resuser`](./resuser/README.md)**  
+  External resources and supporting files.
 
 ---
 
-## 🔬 Testing
-Vi använder **Jest** för enhetstester och integrationstester av backend-komponenter.
+## Known Issues / Limitations
+
+This project is still under development.  
+Some features may be incomplete, experimental, or subject to change as part of the learning process.
+
+---
+
+## Git Workflow
+
+- `live`: Currently deployed version  
+- `deployment`: Tested and approved code ready for deployment  
+- `main`: Clean, stable version intended to be deployable  
+- `name`: Local development branch for an individual developer  
+
+Always branch from `main` unless a specific version is required.
+
+Pull requests for new features or changes should be made into the `main` branch for review.
+
+For detailed instructions on Git and GitHub usage in this project, see the  
+[Git Commands Guide](./notes/github/README.md).
+
+---
+
+## Testing
+
+The project uses **Jest** for unit and integration testing of backend components.
 
 To run tests:
+
 ```bash
 npm test
-```

@@ -1,0 +1,587 @@
+{
+  "by_test_case": {
+    "frozen_set": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "simple_bool": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "byte_array": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "empty_containers": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "neg_inf": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "complex_num": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "multi_language": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "simple_float": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "numpy_pos_inf": {
+      "consistent": false,
+      "protocol_differences": {},
+      "environment_differences": {
+        "0": {
+          "linux-3.8.18": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "win32-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1"
+        },
+        "1": {
+          "linux-3.8.18": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "win32-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1"
+        },
+        "2": {
+          "linux-3.8.18": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "win32-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1"
+        },
+        "3": {
+          "linux-3.8.18": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "win32-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1"
+        },
+        "4": {
+          "linux-3.8.18": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "win32-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1"
+        },
+        "5": {
+          "linux-3.8.18": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "win32-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.8.10": "7146644c46599230a85ed5d6ed4ca32c655105c460cd0722e4fdeafb31e1f1d3",
+          "darwin-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "darwin-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.10.11": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "linux-3.11.9": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1",
+          "win32-3.9.13": "4b84da922e5799e7f989922b99e1e7b9daf638fcf747e891bc10713434febcd1"
+        }
+      }
+    },
+    "numpy_neg_zero": {
+      "consistent": false,
+      "protocol_differences": {},
+      "environment_differences": {
+        "0": {
+          "linux-3.8.18": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "win32-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519"
+        },
+        "1": {
+          "linux-3.8.18": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "win32-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519"
+        },
+        "2": {
+          "linux-3.8.18": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "win32-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519"
+        },
+        "3": {
+          "linux-3.8.18": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "win32-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519"
+        },
+        "4": {
+          "linux-3.8.18": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "win32-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519"
+        },
+        "5": {
+          "linux-3.8.18": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "win32-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.8.10": "5797f4f916d308fb3a3c5ba36d7163cb2ce14cebf301eca0d2a22df063e45ce8",
+          "darwin-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "darwin-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.10.11": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "linux-3.11.9": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519",
+          "win32-3.9.13": "3d85cf4a18c942af82341772432a2a51452cfcb6dddbe53e5a3961e9147d2519"
+        }
+      }
+    },
+    "inf": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "nan": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "numpy_neg_inf": {
+      "consistent": false,
+      "protocol_differences": {},
+      "environment_differences": {
+        "0": {
+          "linux-3.8.18": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "win32-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3"
+        },
+        "1": {
+          "linux-3.8.18": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "win32-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3"
+        },
+        "2": {
+          "linux-3.8.18": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "win32-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3"
+        },
+        "3": {
+          "linux-3.8.18": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "win32-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3"
+        },
+        "4": {
+          "linux-3.8.18": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "win32-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3"
+        },
+        "5": {
+          "linux-3.8.18": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "win32-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.8.10": "fd2193a4be019f9bbc5815952f293f4011c676f338706a8a78676555f0384bcb",
+          "darwin-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "darwin-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.10.11": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "linux-3.11.9": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3",
+          "win32-3.9.13": "acc2046a3012e9dda79ffcdb70b0e5079ea72323345bd2e085d5ad805d4adcf3"
+        }
+      }
+    },
+    "very_small": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "simple_int": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "simple_set": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "numpy_nan": {
+      "consistent": false,
+      "protocol_differences": {},
+      "environment_differences": {
+        "0": {
+          "linux-3.8.18": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "win32-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139"
+        },
+        "1": {
+          "linux-3.8.18": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "win32-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139"
+        },
+        "2": {
+          "linux-3.8.18": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "win32-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139"
+        },
+        "3": {
+          "linux-3.8.18": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "win32-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139"
+        },
+        "4": {
+          "linux-3.8.18": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "win32-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139"
+        },
+        "5": {
+          "linux-3.8.18": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "win32-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.8.10": "e6dd75dbff1170148d17ffda73fcd0cb2a69c0f17da35f6cf62a7bee26f77910",
+          "darwin-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "darwin-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.10.11": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "linux-3.11.9": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139",
+          "win32-3.9.13": "d7b9f2de44390d6c95a7f7d25f30de0fc9e3c308e5a702874d6742513c030139"
+        }
+      }
+    },
+    "simple_none": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "nested_structure": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "custom_objects": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "custom_object": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "large_dict": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "emoji": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "very_large": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "simple_list": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "simple_dict": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "bytes_data": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "simple_string": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    },
+    "numpy_pos_zero": {
+      "consistent": false,
+      "protocol_differences": {},
+      "environment_differences": {
+        "0": {
+          "linux-3.8.18": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "win32-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe"
+        },
+        "1": {
+          "linux-3.8.18": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "win32-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe"
+        },
+        "2": {
+          "linux-3.8.18": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "win32-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe"
+        },
+        "3": {
+          "linux-3.8.18": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "win32-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe"
+        },
+        "4": {
+          "linux-3.8.18": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "win32-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe"
+        },
+        "5": {
+          "linux-3.8.18": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "win32-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.8.10": "d89829b69eb21418feb7b9fb72dbef012967405ac77d9b09a061459fffd06a21",
+          "darwin-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "darwin-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.10.11": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "linux-3.11.9": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe",
+          "win32-3.9.13": "e07f8c403a8a36262bb1359ce7b1a4dbf6472029afa7b58a7f3a369815845cfe"
+        }
+      }
+    },
+    "simple_tuple": {
+      "consistent": true,
+      "protocol_differences": {},
+      "environment_differences": {}
+    }
+  },
+  "by_environment": {},
+  "by_protocol": {},
+  "summary": {
+    "total_test_cases": 30,
+    "consistent_across_all": 25,
+    "differ_by_protocol": 0,
+    "differ_by_environment": 1
+  }
+}

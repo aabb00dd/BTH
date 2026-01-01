@@ -1,0 +1,147 @@
+@startuml SimSims
+skinparam linetype ortho
+title SimSims
+
+' Abstract Classes
+abstract class Resource {
+}
+abstract class Place {
+  {abstract} - resource: list
+  {abstract} + resource_in_place(): bool
+  {abstract} + add(resource: Resource)
+  {abstract} + send(): Resource
+}
+abstract class Transition {
+  {abstract} - to_barrack: Barrack
+  {abstract} - from_barrack: Barrack
+  {abstract} - place: Barn
+  {abstract} + action()
+  {abstract} + change_barrack(barrack1: Barrack, barrack2: Barrack)
+  {abstract} + change_place(place: Place)
+}
+
+' Resource Classes
+class Worker {
+  + hp: int
+  + worker_number: int
+  + end_life(barrack: Barrack)
+}
+class Food {
+  - quality: int
+}
+class Product {
+  {abstract}
+}
+
+' Place Classes
+class Barrack {
+  - resource: list
+  + resource_in_place(): bool
+  + add(resource: Resource)
+  + send(): Resource
+}
+class Barn {
+  - resource: list
+  + resource_in_place(): bool
+  + add(resource: Resource)
+  + send(): Resource
+}
+class Warehouse {
+  - resource: list
+  + resource_in_place(): bool
+  + add(resource: Resource)
+  + send(): Resource
+}
+
+' Transition Classes
+class Home {
+  - to_barrack: Barrack
+  - from_barrack: Barrack
+  - place: Warehouse
+  + action()
+  + change_barrack(barrack1: Barrack, barrack2: Barrack)
+  + change_place(warehouse: Warehouse)
+  - _sleep(worker: Worker, product: Product): int
+  - _multiply(worker1: Worker, worker2: Worker, product: Product): Worker
+}
+class FoodCourt {
+  - to_barrack: Barrack
+  - from_barrack: Barrack
+  - place: Barn
+  + action()
+  + change_barrack(barrack1: Barrack, barrack2: Barrack)
+  + change_place(barn: Barn)
+}
+class Factory {
+  - to_barrack: Barrack
+  - from_barrack: Barrack
+  - place: Warehouse
+  + action()
+  + change_barrack(barrack: Barrack)
+  + change_place(warehouse: Warehouse)
+  - _lower_hp(worker: Worker)
+  + send_product(product: Product)
+}
+class Field {
+  - to_barrack: Barrack
+  - from_barrack: Barrack
+  - place: Barn
+  + action()
+  + change_barrack(barrack1: Barrack, barrack2: Barrack)
+  + change_place(barn: Barn)
+  - _lower_hp(worker: Worker)
+  + send_food(food: Food)
+}
+
+' World Class
+class World {
+  - barracks: list
+  - homes: list
+  - food_courts: list
+  - factories: list
+  - fields: list
+  - warehouses: list
+  - barns: list
+  + create_worker(): Worker
+  + create_barrack(): Barrack
+  + create_home(): Home
+  + create_food_court(): FoodCourt
+  + create_warehouse(): Warehouse
+  + create_factory(): Factory
+  + create_barn(): Barn
+  + create_field(): Field
+  + start_system()
+}
+
+'Relationships
+World "1" *-down- "*" Barrack: ""
+World "1" *-down- "*" Home: ""
+World "1" *-down- "*" FoodCourt: ""
+World "1" *-left- "*" Factory: ""
+World "1" *-left- "*" Warehouse: ""
+World "1" *-right- "*" Field: ""
+World "1" *-right- "*" Barn: ""
+Worker "*" -up-o "*" Barrack: ""
+Product "*" -right-o "1" Warehouse: ""
+Food "*" -left-o "1" Barn: ""
+Barrack "2" -down-o "1" Home: ""
+Barrack "2" -down-o "1" FoodCourt: ""
+Field "*" o-right- "1" Barn: ""
+Field "*" o-down- "2" Barrack: ""
+Factory "*" o-left- "1" Warehouse: ""
+Factory "*" o-down- "2" Barrack: ""
+Home "*" o-up- "1" Warehouse: ""
+FoodCourt "*" o-up- "1" Barn: ""
+Resource <|-- Worker: ""
+Resource "1" *-right- "*" Food: ""
+Resource "1" *-right- "*" Product: ""
+Place "1" *-left- "*" Barn: ""
+Place "1" *-left- "*" Warehouse: ""
+Place "1" *-left- "*" Barrack: ""
+Transition "1" *-down- "*" Factory: ""
+Transition "1" *-down- "*" FoodCourt: ""
+Transition "1" *-down- "*" Field: ""
+Transition "1" *-down- "*" Home: ""
+
+
+

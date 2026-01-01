@@ -1,0 +1,20 @@
+@startuml DeckOfcards
+!theme plain
+
+class card {
+    - _suit
+    - _value
+    + to_string(): str
+}
+
+class Hand {
+     _cards: lst<card>
+     + to_string(): str
+}
+
+class Deck {
+    - _stack: lst<card>
+    + shuffle()
+    + draw(num_cards): Hand
+}
+@enduml

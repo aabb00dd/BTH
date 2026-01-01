@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+  background-image: url('../../public/bild_1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%; /* Changed from 100vw to 100% to prevent overflow */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Added to center vertically */
+  box-sizing: border-box;
+  /* Increased top padding to push content down more */
+  padding: 55px 0 35px 0;
+  overflow-x: hidden; /* Added to prevent horizontal overflow */
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Ensures content is centered vertically */
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  /* Below ensures it takes the available height properly */
+  min-height: calc(100vh - 140px); /* Account for top/bottom padding */
+}
+
+.content-transition-wrapper {
+  width: 100%;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.home-content {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+/* .home-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+} */
+
+.welcome-container {
+  padding: 20px;
+  width: 100%;
+}
+
+.welcome-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  letter-spacing: -0.5px;
+}
+
+.welcome-description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature-item {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(245, 245, 245, 0.8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* .feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+} */
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.feature-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.feature-item p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.start-button {
+  margin-top: 2rem;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #2c3e50, #2c3e50);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.start-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #2c3e50, #2c3e50);
+}
+
+.start-button:active {
+  transform: translateY(1px);
+}
+
+/* Media queries for mobile and tablet responsiveness */
+@media (max-width: 1024px) {
+  .App {
+    padding: 60px 0; /* Adjusted padding */
+  }
+  
+  .container {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .content {
+    padding: 15px;
+    margin: 0 15px;
+    min-height: calc(100vh - 120px); /* Adjust for the new padding */
+  }
+  
+  .feature-grid {
+    flex-direction: column;
+  }
+  
+  .feature-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  .welcome-container h1 {
+    font-size: 1.8rem;
+  }
+  
+  .welcome-description {
+    font-size: 1rem;
+  }
+  
+  .home-content {
+    padding: 20px;
+  }
+  
+  .content {
+    min-height: calc(100vh - 100px); /* Adjust for the new padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-container h1 {
+    font-size: 1.5rem;
+  }
+  
+  .start-button {
+    padding: 10px 25px;
+    font-size: 1rem;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #2c3e50;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

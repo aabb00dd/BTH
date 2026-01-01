@@ -1,10 +1,10 @@
-# 🛠️ helpers – Backend Utility Functions
+# helpers – Backend Utility Functions
 
 This folder contains modular utility files used throughout the backend of the **Läkemedelsberäkningar** project. These helpers encapsulate core logic for manipulating question data, validating input, generating values, and preparing clean API responses.
 
 ---
 
-## 📄 Module Descriptions
+## Module Descriptions
 
 ### [`courseHelpers.js`](./courseHelpers.js)
 Handles parsing and validation of course-related data, especially `course_code`.  
@@ -48,7 +48,7 @@ Responsible for interpreting and validating units.
 
 ---
 
-## ✅ Design Principles
+## Design Principles
 
 - Functions are designed to be **pure** and **stateless** wherever possible.
 - Code is **modularized by domain** (course, unit, question, etc.).
@@ -56,7 +56,7 @@ Responsible for interpreting and validating units.
 
 ---
 
-## 📌 Usage Example
+## Usage Example
 
 ```js
 const { generateRandomQuestion, calculateAnswer } = require('./questionHelpers');

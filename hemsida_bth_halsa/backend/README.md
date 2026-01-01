@@ -1,20 +1,20 @@
-# 🧠 Backend – Läkemedels Hemsida
+# Backend – Läkemedels Hemsida
 
 This is the backend for **Läkemedels Hemsida**, a web application aimed at generating and managing medical and course-related questions. It supports dynamic variable-based question generation, robust API endpoints for CRUD operations, and an extensible SQLite-based data layer.
 
 ---
 
-## 📁 Folder Structure Overview
+## Folder Structure Overview
 
-- **📦 [`database`](./db/README.md)** – SQLite3 database setup and utilities
-- **📦 [`models`](./models/README.md)** – The database schema and definitions
-- **📦 [`routes`](./routes/README.md)** – The API calls and documentation
-- **📦 [`helpers`](./helpers/README.md)** – Helper modules for question generation, validation, and randomization
-- **📦 `/components`** – Server-side components like `RandomQuestion` responsible for generating randomized question instances
+- **[`database`](./db/README.md)** – SQLite3 database setup and utilities
+- **[`models`](./models/README.md)** – The database schema and definitions
+- **[`routes`](./routes/README.md)** – The API calls and documentation
+- **[`helpers`](./helpers/README.md)** – Helper modules for question generation, validation, and randomization
+- **`/components`** – Server-side components like `RandomQuestion` responsible for generating randomized question instances
 
 ---
 
-## 🧰 Starting the Backend
+## Starting the Backend
 
 Install dependencies:
 ```bash
@@ -28,14 +28,14 @@ npm start
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### ✅ Dynamic Question Generation
+### Dynamic Question Generation
 - Variables in questions use the `%%variable%%` format
 - JSON-defined `variating_values` enable randomization of numeric and text inputs
 - Advanced rules via `condition` allow constraints between variables
 
-### ✅ SQLite-Based Persistence
+### SQLite-Based Persistence
 - Includes schemas for:
   - `units` (e.g., mg, ml)
   - `course` (e.g., DV1683 – AI in Python)
@@ -43,7 +43,7 @@ npm start
   - `qtype` (question types with performance tracking)
   - `question_data` (main question bank)
 
-### ✅ RESTful API Endpoints
+### RESTful API Endpoints
 - Fully documented routes for managing:
   - Courses
   - Medicines
@@ -53,7 +53,7 @@ npm start
 
 ---
 
-## 📡 API Overview
+## API Overview
 
 You can explore the full [API Documentation](./routes/README.md), but here are some highlights:
 
@@ -68,7 +68,7 @@ All endpoints return JSON responses.
 
 ---
 
-## 🧪 Example Question Object
+## Example Question Object
 
 ```json
 {
@@ -87,7 +87,7 @@ All endpoints return JSON responses.
 ```
 
 
-## 📌 Known Issues / Limitations
+## Known Issues / Limitations
 
 Highlight current known rough edges:
 

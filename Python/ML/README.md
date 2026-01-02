@@ -4,37 +4,51 @@ This folder contains various machine learning projects exploring different datas
 
 ---
 
-## Features
+## Projects
 
-- **Spam Email Classification**:
+- **Spam Email Classification**
   - Implementation of Naive Bayes, K-Nearest Neighbors, and Decision Tree classifiers.
   - Statistical analysis using Friedman and Nemenyi tests.
 
-- **Wine Quality Prediction**:
+- **Wine Quality Prediction**
   - Preprocessing techniques including scaling and balancing.
   - Validation using repeated k-fold cross-validation.
 
-- **Movie Performance Prediction**:
+- **Movie Performance Prediction**
   - Feature engineering and sentiment analysis for title-based predictions.
   - Hyperparameter tuning and statistical evaluation of models.
+
+- **ML Classifier Comparison (Decision Tree, KNN, Random Forest)**
+  - Reads a CSV dataset (e.g., Titanic), preprocesses it, and evaluates three classifiers:
+    - Decision Tree  
+    - K-Nearest Neighbors (KNN)  
+    - Random Forest  
+  - Outputs standard classification metrics for each model:
+    - Recall  
+    - Accuracy  
+    - Precision  
 
 ---
 
 ## What I Learned
 
-- **Data Preprocessing**:
+Working on these projects deepened my understanding of machine learning and real-world data preprocessing, including:
+
+- **Data Preprocessing**
   - Techniques for handling missing values, scaling, and balancing datasets.
   - Feature engineering for categorical and numerical data.
 
-- **Model Evaluation**:
+- **Model Evaluation**
   - The importance of cross-validation for robust model assessment.
+  - Using multiple metrics (accuracy, precision, recall) to interpret classification performance.
   - Statistical methods for comparing model performance across multiple metrics.
 
-- **Optimization**:
+- **Optimization**
   - Hyperparameter tuning to maximize predictive accuracy.
   - Balancing model complexity and computational efficiency.
 
-- **Insights into Real-World Applications**:
+- **Insights into Real-World Applications**
   - Predicting wine quality based on chemical properties.
   - Analyzing movie datasets to predict financial and quality metrics.
   - Classifying spam emails using machine learning algorithms.
+  - Comparing common classifiers on real datasets (e.g., Titanic) to understand trade-offs in performance.

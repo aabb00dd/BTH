@@ -1,6 +1,6 @@
 # Maze Pathfinding Algorithms in Python
 
-This Python project implements three classic pathfinding algorithms — **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, and **A\* (A-Star)** — to find a path through a 2D maze. It also measures the **peak memory usage** of each algorithm using Python’s `tracemalloc` module.
+This Python project implements three classic pathfinding algorithms — **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, and **A\* (A-Star)** to find a path through a 2D maze. It also measures the **peak memory usage** of each algorithm using Python’s `tracemalloc` module.
 
 ---
 
@@ -25,3 +25,4 @@ This Python project implements three classic pathfinding algorithms — **Breadt
 - Tracking **memory usage** with `tracemalloc` for performance analysis
 
 - Visualizing paths in a **2D grid-based maze** using nested lists and coordinate systems
+

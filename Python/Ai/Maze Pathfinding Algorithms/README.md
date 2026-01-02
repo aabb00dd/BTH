@@ -13,7 +13,7 @@ This Python project implements three classic pathfinding algorithms — **Breadt
 - Tracks and prints:
   - Path length
   - Peak memory usage (in bytes)
-- 🖨 Visually prints the maze with the path marked using `*`
+- Visually prints the maze with the path marked using `*`
 
 ---
 
@@ -23,4 +23,5 @@ This Python project implements three classic pathfinding algorithms — **Breadt
 - Using **priority queues** with `heapq` for efficient A* search
 - Calculating **Manhattan distance** as a heuristic function in A*
 - Tracking **memory usage** with `tracemalloc` for performance analysis
+
 - Visualizing paths in a **2D grid-based maze** using nested lists and coordinate systems

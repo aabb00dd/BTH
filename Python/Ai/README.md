@@ -6,7 +6,6 @@ This repository contains a collection of AI-focused Python projects developed as
 
 ## Key Concepts Practiced
 
-- Supervised Machine Learning (Classification)
 - Decision Tree construction and evaluation
 - Genetic Algorithms and evolutionary strategies
 - Heuristic search (A*)
@@ -14,4 +13,5 @@ This repository contains a collection of AI-focused Python projects developed as
 - Visualization with `matplotlib`
 - Memory usage analysis with `tracemalloc`
 - Clean code and modular Python scripting
+
 

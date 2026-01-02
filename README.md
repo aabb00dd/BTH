@@ -1,52 +1,48 @@
-# University Projects Repository
+# University Projects Collection
 
-This repository contains a collection of my **university projects** completed during my academic studies. It serves as a centralized portfolio showcasing work from different courses, topics, and technical domains.
+This repository contains my university (school) projects, organized by primary programming language.  
+Each top-level folder represents the main language used in the projects inside it, and each language folder contains multiple individual projects.
 
-The projects demonstrate both **theoretical knowledge** and **practical implementation**, ranging from small assignments to larger, more comprehensive course projects.
+## About the Repository
 
----
+The purpose of this repository is to collect and document coursework projects across different subjects and technologies, and to show my progress in software development through practical assignments.
 
-## Purpose of This Repository
+These projects may cover areas such as web development, data analysis, AI/ML, algorithms and data structures, software testing, databases, and backend development.
 
-The main objectives of this repository are to:
+## Repository Structure
 
-- Organize all university-related projects in one place  
-- Showcase academic progress and technical skill development  
-- Serve as a reference for learning and future improvement  
-- Provide transparency for reviewers, collaborators, and recruiters  
+- Each top-level folder = a programming language (the primary language used in those projects)
+- Inside each language folder = individual project folders
+- Many projects include their own `README.md` with setup and usage instructions
 
-Each project was completed as part of formal university coursework.
+Example structure:
 
----
+    .
+    ├── Python/
+    │   ├── project_1/
+    │   ├── project_2/
+    │   └── ...
+    ├── JavaScript/
+    │   ├── project_1/
+    │   ├── project_2/
+    │   └── ...
+    ├── Java/
+    │   ├── project_1/
+    │   ├── project_2/
+    │   └── ...
+    ├── SQL/
+    │   ├── project_1/
+    │   └── ...
+    └── ...
 
-## Technologies & Topics
+## Notes
 
-Depending on the course, projects may involve:
+Some projects were completed individually, while others were developed in teams depending on the course.  
+Structure and tooling may vary between projects because course requirements differ.
 
-- Programming (Python, Java, SQL, etc.)
-- Data analysis and statistics
-- Machine learning and artificial intelligence
-- Algorithms and data structures
-- Software engineering principles
-- Mathematical and theoretical foundations
+This repository is continuously updated as new coursework projects are completed.
 
-Specific tools and technologies are documented within each project.
+## Academic Integrity
 
----
-
-## Academic Integrity Notice
-
-All projects in this repository are shared **for educational and portfolio purposes only**.  
-They must **not** be copied, reused, or submitted as coursework by other students.
-
----
-
-## Ongoing Development
-
-This repository is actively maintained and will continue to grow as new courses and projects are completed throughout my studies.
-
----
-
-## 📬 Contact
-
-If you have questions about any project or would like to discuss the work, feel free to reach out via GitHub or LinkedIn.
+This repository is shared for educational and portfolio purposes only.  
+Do not copy or submit any part of these projects as your own coursework.

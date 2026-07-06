@@ -1,11 +1,5 @@
 # Vision-Based Multi-Robot Target Following with JetBot
 
-A robotics project where multiple NVIDIA JetBot robots detect, follow, and cooperate around a red target using computer vision, HTTP communication, and differential-drive motor control.
-
-The project was completed as part of a robotics course in the M.Sc. Programme in Artificial Intelligence and Machine Learning at Blekinge Institute of Technology. :contentReference[oaicite:0]{index=0}
-
----
-
 ## Overview
 
 This project implements a real-time target-following system for multiple JetBot robots. Instead of using a trained AI model, the system uses OpenCV-based HSV color segmentation and pixel counting to detect a red target from camera input.
@@ -55,19 +49,6 @@ Client Computer
 
 ---
 
-## Technologies Used
-
-- Python
-- OpenCV
-- NumPy
-- PIL
-- HTTP requests
-- Python `http.server`
-- Python `threading`
-- NVIDIA JetBot / Jetson Nano
-
----
-
 ## Results
 
 The system successfully demonstrated:
@@ -99,21 +80,3 @@ The project showed that useful multi-robot behavior can be achieved with simple,
 - Improve distance estimation
 - Test in more environments
 - Add machine learning-based object detection
-
----
-
-## Authors
-
-**Abdalrahman Mohammed**  
-M.Sc. Artificial Intelligence and Machine Learning  
-Blekinge Institute of Technology
-
-**Casper Aborres**  
-M.Sc. Artificial Intelligence and Machine Learning  
-Blekinge Institute of Technology
-
----
-
-## Recruiter Summary
-
-Built a multi-robot JetBot system using Python, OpenCV, HSV segmentation, HTTP communication, and differential-drive control. The robots could detect and follow a red target, cooperate through shared secondary colors, and adapt when the target moved or was blocked from direct view.

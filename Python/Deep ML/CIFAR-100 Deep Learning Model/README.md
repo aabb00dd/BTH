@@ -1,9 +1,5 @@
 # CIFAR-100 Deep Learning Model Benchmark
 
-A deep learning project comparing a custom CNN with several pretrained computer vision architectures on the CIFAR-100 image classification dataset. The project also includes a small gradient descent optimization exercise to demonstrate understanding of mathematical optimization. :contentReference[oaicite:0]{index=0}
-
----
-
 ## Overview
 
 This project focuses on image classification using PyTorch. The main goal was to train a custom convolutional neural network from scratch and compare its performance against established pretrained models.
@@ -19,22 +15,6 @@ The models were trained and evaluated on CIFAR-100, a dataset containing 100 ima
 - VGG-19
 - DenseNet-121
 - EfficientNet-B0
-
----
-
-## Technologies Used
-
-- Python
-- PyTorch
-- Torchvision
-- CNN architectures
-- Transfer learning
-- Data augmentation
-- Batch normalization
-- Dropout
-- Early stopping
-- Mixed precision training
-- Matplotlib for training curves
 
 ---
 
@@ -113,8 +93,3 @@ This project demonstrates practical experience with:
 - PyTorch implementation
 - Mathematical optimization using gradient descent
 
----
-
-## Recruiter Summary
-
-Built and evaluated a PyTorch-based image classification pipeline on CIFAR-100. Compared a custom CNN against ResNet-50, VGG-19, DenseNet-121, and EfficientNet-B0 using accuracy, F1-score, training curves, and overfitting analysis. EfficientNet-B0 achieved the strongest result with 76.33% test accuracy, while the custom CNN provided an interpretable baseline trained from scratch.

@@ -144,9 +144,3 @@ This project demonstrates practical experience with:
 - Precision, recall, F1-score, and ROC-AUC analysis
 - PyTorch model training
 - Data preprocessing without leakage
-
----
-
-## Recruiter Summary
-
-Built an anomaly detection pipeline for NASA spacecraft telemetry data using PyTorch LSTM autoencoders and a K-Means baseline. The system detects abnormal time-series sequences using reconstruction error and compares models using precision, recall, F1-score, ROC-AUC, and anomaly visualizations. The simple LSTM autoencoder achieved the best overall performance with an ROC-AUC of 0.8671.

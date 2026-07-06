@@ -1,11 +1,5 @@
 # Spacecraft Telemetry Anomaly Detection with LSTM Autoencoders
 
-A deep learning project for detecting anomalies in spacecraft telemetry time-series data using LSTM autoencoders and a K-Means baseline model.
-
-The project uses the NASA SMAP/MSL anomaly detection dataset and focuses on channel `A-1`.
-
----
-
 ## Overview
 
 This project applies unsupervised anomaly detection to spacecraft sensor data. Since the data is sequential, LSTM autoencoders were used to learn normal time-series behavior and detect abnormal sequences using reconstruction error.
@@ -135,23 +129,6 @@ The simple LSTM autoencoder achieved the best overall result, with the highest F
 - Combine reconstruction error with other anomaly scores
 - Use attention-based or transformer-based sequence models
 - Improve false-positive reduction
-
----
-
-## Technologies Used
-
-- Python
-- PyTorch
-- NumPy
-- Pandas
-- Scikit-learn
-- Matplotlib
-- LSTM autoencoders
-- K-Means clustering
-- StandardScaler
-- Time-series sequence modeling
-
----
 
 ## What This Project Demonstrates
 
